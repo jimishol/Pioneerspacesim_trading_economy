@@ -2,7 +2,7 @@
 (With pioneer i mean my lovely space simulation game https://pioneerspacesim.net/.)
 
 Trying to learn hello world GitHub flow.
-Excuse my ignorance. I am trying to learn some GitHub stuff here.
+I am trying to learn some GitHub stuff here....
 I am too old for this but I like pioneer game. So, I start with beginner's stuff.
 
 ------I didn't finished my try about github, but i finished an article:)-------
