@@ -7,7 +7,7 @@ I am too old for this but I like pioneer game. So, I start with beginner's stuff
 Just to see what happens editing second time in branch readme-edits before PR merge.
 And this is edit of main before PR.
 
-
+#this is
 Here it is the pdf [pionner-economy.pdf](https://github.com/jimishol/hello-pioneer/files/7025660/pionner-economy.pdf)
 
 
