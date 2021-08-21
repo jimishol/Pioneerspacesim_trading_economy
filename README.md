@@ -15,6 +15,6 @@ The creation of article was possible through latex https://www.latex-project.org
 
 I can not guaranty for how long by github account will either exist or be maintained. Feel free to copy paste anything you like somewhere else. Although, I would be happy to know if someone foud my article interesting.
 
-Pleasy avoid harsh comments, if you disagree with my writtings. I hope to have a few more healthy years, i have no time to improve myself, so let me rest in peace.
+Pleasy avoid harsh comments, if you disagree with my writtings. I hope for me to have a few more healthy years, i have no time to improve myself, so let me rest in peace.
 
 Thank you.
