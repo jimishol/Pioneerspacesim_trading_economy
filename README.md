@@ -9,7 +9,7 @@ I am too old for this but I like pioneer game. So, I start with beginner's stuff
 
 I submit my thoughts about the trading system of my lovely game. I am not able to create dedicated web page, so i upload my pdf article [pionner-economy.pdf](https://github.com/jimishol/hello-pioneer/files/7025660/pionner-economy.pdf) here, in a place that started as github tutorial. I thanks github, for giving me this opportunity.
 
-In my thoughts, commodity prices, stock, cargo ship spaces, value of ship, all are connected.
+In my thoughts, commodity prices, stock, cargo ship spaces, value of ships, all are connected.
 
 The creation of article was possible through latex https://www.latex-project.org/ and its frond end texstudio https://www.texstudio.org/. Both proved valuable to me for many years.
 
