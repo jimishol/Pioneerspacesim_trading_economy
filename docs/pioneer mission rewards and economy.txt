@@ -1,0 +1,62 @@
+Taxi.lua
+advs are local num = Engine.rand:Integer(0, math.ceil(Game.system.population))
+typical_reward=3000
+reward = ((dist / max_taxi_dist) * typical_reward * (group / 2) * (1+risk) * (1+3*urgency) * Engine.rand:Number(0.8,1.2))
+risk and urgency in Taxi.lua are 100% depentent so 2,24 is the average((1+risk) * (1+3*urgency)) and not the avg(risk) * avg(urgency)  
+reward = ((dist / max_taxi_dist) * typical_reward * (group / 2) * 2.24 * 1.2 Because of multi advs we can chose almost maximum
+10/13 is single, 3/13 is multi from(2,10) so avg 3/13+6*10/13=63/13 but better take max
+reward = ((dist / max_taxi_dist) * typical_reward * 5/2 * 2.24 * 1.2
+So, max distant reward = 3000 *5/2 * 2.24 *1.2= 20160
+when only single (but say with 4 advs) 3000*1/2*2.24*1.2=4032
+Hard value the 75.
+
+
+
+
+Assassination.lua
+
+local danger = Engine.rand:Integer(1,4)
+local reward = Engine.rand:Number(2100, 7000) * danger
+local reward = 9100/2 * 13/4=14787=14500 with 3 advs avg_danger=1+3*3/4=1+3*n/(n+1)
+
+
+
+DeliverPackage.lua
+
+local min_local_dist_pay = 8
+local max_delivery_dist = 30
+local typical_reward = 25 * max_delivery_dist
+local typical_reward_local = 25
+----------
+it is 8 and 30 in ly
+1 ly = 9460730472580800 meter
+
+---------
+local delivery
+reward = typical_reward_local + math.max(math.sqrt(dist) / 15000, min_local_dist_pay) * (1.5+urgency)
+max distant reward
+reward = 25 + 115 * (1.5+0.6)=25+241=266 (0.6 is second max urgency for multi advs)
+Hard value 25, 15000
+
+system delivery
+reward = ((dist / max_delivery_dist) * typical_reward * (1+risk) * (1.5+urgency) * Engine.rand:Number(0.8,1.2))
+reward = ((dist / max_delivery_dist) * 750 * 2 * 1.2) =1800
+
+------------
+cargo run
+ local max_delivery_dist = 15
+local max_cargo = 10
+local max_cargo_wholesaler = 100
+
+local
+local typical_reward_local = 35
+ reward = typical_reward_local + math.max(math.sqrt(dist) / 15000, min_local_dist_pay) * (1.5+urgency) * (1+amount/max_cargo)
+reward = 35 + 81 * (1.5+1) * 17/10=242 (3 advs of 1-10 amount)
+
+system
+ amount = Engine.rand:Integer(10, 100) with 3 advs avg=10+3/4*90=78
+local typical_reward = 35 * max_delivery_dist=35*15=525
+reward = (dist / max_delivery_dist) * typical_reward * (1+risk) * (1.5+urgency) * (1+amount/max_cargo_wholesaler) * Engine.rand:Number(0.8,1.2)
+reward = 1 * 525 * 1.6 * (1.5+3/4) * 1.78 * 1.1=3700
+
+
