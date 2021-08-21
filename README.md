@@ -1,4 +1,4 @@
-# Hello-pioneer. An srticle about game's trading system.
+# Hello-pioneer. An article about game's trading system.
 (With pioneer i mean my lovely space simulation game https://pioneerspacesim.net/.)
 
 Trying to learn hello world GitHub flow.
