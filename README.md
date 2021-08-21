@@ -19,4 +19,4 @@ Pleasy avoid harsh comments, if you disagree with my writtings. I hope for me to
 
 Thank you.
 
-In doc folder there are all the files i used for the creation of pdf article. I took no care to comment them. I hope anyone who will try to use them will eventually recognize the connection with my article. The files that are mentioned by the article are accurate. Other files were temporary auxiliary files, heavily edited, that helped me during the creation of the article. Anyway, i upload all for the sake of completeness.
+In doc folder there are all the files i used for the creation of my pdf article. I took no care to comment them. I hope anyone who will try to use them will eventually recognize the connection with my article. The files that are mentioned by the article are accurate. Other files were temporary auxiliary files, heavily edited, that helped me during the creation of the article. Anyway, i upload all for the sake of completeness.
