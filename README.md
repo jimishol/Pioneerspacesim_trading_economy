@@ -13,7 +13,7 @@ In my thoughts, commodity prices, stock, cargo ship spaces, value of ships, all 
 
 The creation of article was possible through latex https://www.latex-project.org/ and its frond end texstudio https://www.texstudio.org/. Both proved valuable to me for many years.
 
-I can not guaranty for how long by github account will either exist or be maintained. Feel free to copy paste anything you like somewhere else. Although, I would be happy to know if someone foud my article interesting.
+I can not guaranty for how long my github account will either exist or be maintained. Feel free to copy paste anything you like somewhere else. Although, I would be happy to know if someone found my article interesting.
 
 Pleasy avoid harsh comments, if you disagree with my writtings. I hope for me to have a few more healthy years, i have no time to improve myself, so let me rest in peace.
 
