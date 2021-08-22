@@ -7,7 +7,8 @@ I am too old for this but I like pioneer game. So, I start with beginner's stuff
 
 ------I didn't finished my try about github, but i finished an article:)-------
 
-I submit my thoughts about the trading system of my lovely game. I am not able to create dedicated web page, so i upload my pdf article [pionner-economy.pdf](https://github.com/jimishol/hello-pioneer/files/7025660/pionner-economy.pdf) here, in a place that started as github tutorial. I thanks github, for giving me this opportunity.
+I submit my thoughts about the trading system of my lovely game. I am not able to create dedicated web page, so i upload my pdf article [pionner-economy.pdf](https://github.com/jimishol/Pioneerspacesim_trading_economy/files/7026706/pionner-economy.pdf)
+ here, in a place that started as github tutorial. I thanks github, for giving me this opportunity.
 
 In my thoughts, commodity prices, stock, cargo ship spaces, value of ships, all are connected.
 
