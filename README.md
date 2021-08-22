@@ -12,6 +12,8 @@ I submit my thoughts about the trading system of my lovely game. I am not able t
 
 In my thoughts, commodity prices, stock, cargo ship spaces, value of ships, all are connected. The article is based mainly on the theoretical assumption of mathematical optimization by agents in equilibrium. As a result, the need for additional code almost does not exist. The assumption is different than that https://pioneerwiki.com/wiki/Commodity_Prices, at a first glance, finds interesting. The agent based computational economy in previous link, for me, it is  indeed very interesting, but has the disadvantage that requires a game into game or an economy simulation into galaxy simulation, in other words too much code and team work. My article propose an alternative till we get an economy simulation in pioneer.
 
+Use your jundgment and do not use results of calculation as they appear in article. I just acquired 'sinonatrix' and i can not have the 30t free cargo i assumed in article. So one has to estimate its average profit, perhaps equals to taxi mission rewards, and solve for 'a', 'constant' and equilibrium values again.
+
 The creation of article was possible through latex https://www.latex-project.org/ and its frond end texstudio https://www.texstudio.org/. Both proved valuable to me for many years.
 
 I can not guaranty for how long my github account will either exist or be maintained. Feel free to copy paste anything you like somewhere else. Although, I would be happy to know if someone found my article interesting.
