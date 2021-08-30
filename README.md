@@ -1,4 +1,4 @@
-# Hello-pioneer. An article about game's trading system.
+# Hello-pioneer. An article about game's trading system. Plus an economy mod to play.
 (With pioneer i mean my lovely space simulation game https://pioneerspacesim.net/.)
 
 Trying to learn hello world GitHub flow.
@@ -18,8 +18,32 @@ The creation of article was possible through latex https://www.latex-project.org
 
 I can not guaranty for how long my github account will either exist or be maintained. Feel free to copy paste anything you like somewhere else. Although, I would be happy to know if someone found my article interesting.
 
-Pleasy avoid harsh comments, if you disagree with my writtings. I hope for me to have a few more healthy years, i have no time to improve myself, so let me rest in peace.
+Please avoid harsh comments, if you disagree with my writtings. I hope for me to have a few more healthy years, i have no time to improve myself, so let me rest in peace.
 
 Thank you.
 
 In doc folder there are all the files i used for the creation of my pdf article. I took no care to comment them. I hope anyone who will try to use them will eventually recognize the connection with my article. The files that are mentioned by the article are accurate. Other files were temporary auxiliary files, heavily edited, that helped me during the creation of the article. Anyway, i upload all for the sake of completeness.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ECONOMY MOD
+---
+An economy mod is included in docs subfolder.
+
+Mods are described in https://pioneerwiki.com/wiki/Mods. Download the economy_mod.zip file and move it in in pioneer's configuration mods subfolder, that should exist by default. Start a new game and enjoy a feeling of calibrated both stock and prices of commodities and cargo and prices of ships. 
+
+The mod treats ships as upgrades from one to the next, starting from 'lunarshuttle'.
+I upload a new version of commodities.ods that includes new_economy sheet that helped me to calibrate prices, stock and cargo of ships. Also, I upload the economy_mod_equilibrium.wxmx file that helped me set ship prices along with economy_mod.tex and its corresponding [economy_mod.pdf](https://github.com/jimishol/Pioneerspacesim_trading_economy/files/7074869/economy_mod.pdf), that informs about economy mod creation.
+Beyond cargo, stock and prices, it is added
+
+    • a prerequisite feature or upgrades on ships 
+    • when a system is visited for the very first time, it offers increased major export stock on stations
+    (in an attempt to lure new customers)    
+    • taxi and assassinations missions have reduced rewards to 2/3 or ¾ of what ‘lunarshuttle’ can get by trading.
+
+Assuming time spent on discussions to define the right 4 or 5 values of game targets, calibration of economy needs just few minutes to be done.
+
+My hope is to inspire  some real developer. 
+
+
+For example the creation of a prerequisite tag in ships json files, that would be exported to SpaceStation.lua module, would eliminate my ugly inserted lua code.  Ship designers could develop a series of ships for every model, calibrating volume and other technical stuff of ships. (I altered only cargo, capacity and prices). Or, they could expose player’s current cargo to mission modules so as typical rewards to link with player’s profit earning abilities dynamically and not just to the starting of the upgrade chain of ships, as I did (because mission modules are execute on game start event and possibly they do not know anything about player's cargo at that time).
