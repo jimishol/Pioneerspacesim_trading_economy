@@ -7,7 +7,7 @@ I am too old for this but I like pioneer game. So, I start with beginner's stuff
 
 ------I didn't finished my try about github, but i finished an article:)-------
 
-I submit my thoughts about the trading system of my lovely game. I am not able to create dedicated web page, so i upload my pdf article [pionner-economy.pdf](https://github.com/jimishol/Pioneerspacesim_trading_economy/files/7026706/pionner-economy.pdf)
+I submit my thoughts about the trading system of my lovely game. I am not able to create dedicated web page, so i upload my pdf article [pionner-economy.pdf](https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/pionner-economy.pdf)
  here, in a place that started as github tutorial. I thanks github, for giving me this opportunity.
 
 In my thoughts, commodity prices, stock, cargo ship spaces, value of ships, all are connected. The article is based mainly on the theoretical assumption of mathematical optimization by agents in equilibrium. As a result, the need for additional code almost does not exist. The assumption is different than that https://pioneerwiki.com/wiki/Commodity_Prices, at a first glance, finds interesting. The agent based computational economy in previous link, for me, it is  indeed very interesting, but has the disadvantage that requires a game into game or an economy simulation into galaxy simulation, in other words too much code and team work. My article propose an alternative till we get an economy simulation in pioneer.
