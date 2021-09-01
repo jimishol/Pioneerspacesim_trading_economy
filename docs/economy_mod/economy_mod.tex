@@ -7,7 +7,9 @@
 \usepackage{refcount}
 \usepackage{fontawesome5}
 \usepackage{enumitem}
+\usepackage{ulem}
 \begin{document}
+	\paragraph{About economy\_mod.zip}
 	Easily from equation 14, equation 13 is transformed to
 	\begin{equation}\label{eq:profitRatio_ij}
 		\dfrac{Profit_{j}}{Profit_{i}}=\Big(\dfrac{P_{i}}{P_{j}}\Big)^{a-1}=\Big(\dfrac{V^{**}_{ship_{j}}}{V^{**}_{ship_{i}}}\Big)^{\dfrac{a-1}{a}}
@@ -62,27 +64,30 @@ Only first and last free cargo are taken graded as 13t and 3069, free cargo of o
 \end{itemize}
 We order 22 legal commodities such that each next commodity to give more profit from previous one as $Profit_{i+1}=b*Profit_{i}$. We want of course the first and last commodities to be traded by the last and first ships so as to have the same ratio of profits.  We find $b=1.17279319635886$\footnote{Filled in commodities.ods, sheet my\_economy, cell D2}.
 \subparagraph{$constant$ equals to stock produced on a commodity priced $1\,credit$.} Stock is calculated at SpaceStation.lua as integer random function. I don't want to exceed integer limits, so i set $constant=10^9$. Given that, we want 'precious metals' stock at $V^{**}_{precious\_metals}=13t$, so its price calculated to $1426 credits/t$. All above determine the prices of all commodities.
-\paragraph{Solve equilibrium} for 'lunarshuttle' at a price of 35002 credits. I used 'economy\_mod\_equilibrium.wxmx' and wxmaxima for that. The lunarshuttle's profit $Profit_{lunarshuttle}=2832.939$ was calculated my the help of equation 19, with $a$ and $constant$ that just found.
-\subparagraph*{Using found prices for ships,} the duration of economy game is $787su$, while, in current state, it last $97su$. We constructed our economy such $Profit_{ship_{i}}=Profit_{ship_{0}}*1.25^{i}$. If we use a discount $\lambda$ like the one at end of page 48 
-\[\underset{i > current}{Ship_{i}value}=\lambda*T*(1-\dfrac{q_{current}}{q_{i}})+\dfrac{B_{current}}{2}\]then the duration is given by \[duration=\dfrac{T}{q_{0}}*\big(\lambda-\dfrac{\lambda}{1.25^{14}}+\dfrac{1}{1.25^{14}}\big)\]   We solve for $\lambda$ and  find all discounted ship prices.
+\paragraph{Solve equilibrium} for 'lunarshuttle' at a price of 35002 credits and 'dsminer' at double its current price $2*2676331=5352662$ credits\footnote{After the following calculation of durations, it seemed justified to increase them by doubling the price of our flag ship as player's cash target.}. I used 'economy\_mod\_equilibrium2.wxmx' and wxmaxima for that\footnote{The old economy\_mod\_equilibrium.wxmx used constant discounts as the following text describes.}. The lunarshuttle's profit $Profit_{lunarshuttle}=2832.939$ was calculated my the help of equation 19, with those $a$ and $constant$ that just found.
+\subparagraph*{Using found prices for ships,} the duration of economy game is $787su$, while, in current state, it last $97su$. We constructed our economy such $Profit_{ship_{i}}=Profit_{ship_{0}}*1.25^{i}$. If we use a constant discount $\lambda$ like the one at end of page 48 
+\[\underset{i > current}{Ship_{i}value}=\lambda*T*(1-\dfrac{q_{current}}{q_{i}})+\dfrac{B_{current}}{2}\]
+we observe that the duration of having each $ship_{i-1}$ is $1.25^i$ times less than the duration of 'lunarshuttle'. I want that duration $c_t$ constant. So, i have to apply different discount $\lambda_i$ for each ship.
+Then the duration is given by \[duration=14*c_t +\dfrac{T}{q_{0}*1.25^{14}}\] I set $duration=3*current\;duration=3*97=291su$\footnote{If we set duration too high, $ship_{14}$ will cost more than 'dsminer' or worse $ship_{14}$ would be advertised at a price greater than its equilibrium value. Too low seems easy. For example if we set duration equal to current $97su$ then each ship is upgraded after $2su$, while, by $291su$, each upgrade of ship lasts $16su$.} So, $c_{t}= 16su$ We solve for $\lambda_i$ the
+\[\lambda_i*\dfrac{0.20*T}{q_0*1.25^{i-1}}=c_t\] and  find all discounted ship prices.
 \subparagraph{Ship prices and cargo.}
 \begin{enumerate}[label=\Roman*,start=0]
 \item 	Simple 35002 credits lunarshuttle	30t
-	\item 38417 credits	sinonatrix	45t
-		\item 56176 credits	molamola	51t		
-		\item 65055 credits	natrix	63t
-	\item  69494 credits	skipjack	146t
-	\item 71714 credits	deneb	151t			
-	\item 72824 credits	bluenose	182t		
-	\item  73379 credits	ac33	439t
-\item 73656 credits	molaramsayi	396t	
-	\item  73795 credits	venturestar	619t
-	\item 73864 credits	storeria	906t	
-	\item 73899 credits	malabar	1548t
-	\item  73917 credits	nerodia	1684t
-	\item  73925 credits	vatakara	2311t				
-	\item 73930 credits	lodos	2586t			
-	\item Crown ship 2676331 credits dsminer	3900t
+	\item 46216 credits	sinonatrix	45t
+		\item 85544 credits	molamola	51t		
+		\item 124288 credits	natrix	63t
+	\item 166210  credits	skipjack	146t
+	\item 214543 credits	deneb	151t			
+	\item 272416 credits	bluenose	182t		
+	\item 343169  credits	ac33	439t
+\item 430617 credits	molaramsayi	396t	
+	\item 539305  credits	venturestar	619t
+	\item 674779 credits	storeria	906t	
+	\item 843877 credits	malabar	1548t
+	\item  1055099 credits	nerodia	1684t
+	\item  1319032 credits	vatakara	2311t				
+	\item 1648889 credits	lodos	2586t			
+	\item Crown ship 5352662 credits dsminer	3900t
 \end{enumerate}
 
 We set cargo field in json ship file and, by same amount used for its alteration, we alter capacity field too\footnote{\nopagebreak'Amphiesma' maybe should belong in the chain of merchant ships but, when i started the calculations, i estimated its cargo as too low even for precious metals and excluded it. In order for prices to somehow lead to 'lunarshuttle', that is the start of merchant ship and its upgrades chain, i altered the price for 'Amphiesma' to be exactly between "Xylophis" and 'lunarshuttle'.  }. 
@@ -122,7 +127,8 @@ They are set near to commodities they are in current state and as prices they ge
 	\item slaves 1290
 \end{enumerate}
 It seems that pioneer take care about their fluctuation.
-\paragraph{A prerequisite mechanism is added} just before and in 'addRandomShipAdvert' function, in SpaceStaion.lua. By this, one can acquire a merchant ship only if he is its predecessor\footnote{An addition of a prerequisite tag in json ship files would be much better and cleaner solution but seemed to me that C code should be needed to export it to lua. So, i used a 'dirty' sequence of \textsf{'if'} statements in lua.}. If the predecessor of a ship is empty string then it can be acquired anyway. With the addition of such a tag keeping it empty will not affect pioneer at all. But ship designers can create a series of ships consisting of a model and its upgrades, set, only on upgrades, their prerequisite tag, solve for this series equilibrium and offer a fully calibrated on economy model.
-\subparagraph{UpdateEquipmentStock} function is altered a little so as major exports from a system to provide 36\% more profit for 6 months, from the player's very first visit, than that it will offer later. This is done because stations hope to lure new customers away from their routine trading. I hope to lure player to discover new systems by increased profit.
+\paragraph{\sout{A prerequisite mechanism is added}} \sout{ just before and in 'addRandomShipAdvert' function, in SpaceStaion.lua. By this, one can acquire a merchant ship only if he is its predecessor}\footnote{\sout{An addition of a prerequisite tag in json ship files would be much better and cleaner solution but seemed to me that C code should be needed to export it to lua. So, i used a 'dirty' sequence of \textsf{'if'} statements in lua.}}.\sout{ If the predecessor of a ship is empty string then it can be acquired anyway. With the addition of such a tag keeping it empty will not affect pioneer at all. But ship designers can create a series of ships consisting of a model and its upgrades, set, only on upgrades, their prerequisite tag, solve for this series equilibrium and offer a fully calibrated on economy model.}
+\paragraph{Prerequisite feature is no longer needed} after the application of the prescribed variant discounts. So, i removed its code from SpaceStation.lua\footnote{I left though its relevant original zip mod, named as economy\_mod\_prerequisite\_feature.zip .}. 
+\paragraph{UpdateEquipmentStock} function is altered a little so as major exports from a system to provide 36\% more profit for 6 months, from the player's very first visit, than that it will offer later. This is done because stations hope to lure new customers away from their routine trading. I hope to lure player to discover new systems by increased profit.
 \paragraph{Taxi and assasination mission} have reduced their typical rewards according to 'lunarshuttle' average profit, when it trades in its full extend. I wanted initial trading not to be overlapped by mission profits. For taxi mission their average profit set to 2/3 of 'lunarshuttle' profit and for assassination missions to 3/4 of the same profit.
 \end{document}
