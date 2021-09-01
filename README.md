@@ -31,7 +31,7 @@ ECONOMY MOD
 ---
 An economy mod is included in docs subfolder.
 
-Mods are described in https://pioneerwiki.com/wiki/Mods. Download the economy_mod.zip file and move it in in pioneer's configuration mods subfolder, that should exist by default. Start a new game and enjoy a feeling of calibrated both stock and prices of commodities and cargo and prices of ships. 
+Mods are described in https://pioneerwiki.com/wiki/Mods. Download the economy_mod.zip file and move it in pioneer's configuration mods subfolder, that should exist by default. Start a new game and enjoy a feeling of calibrated both stock and prices of commodities and cargo and prices of ships. 
 
 The mod treats ships as upgrades from one to the next, starting from 'lunarshuttle'.
 I upload a new version of commodities.ods that includes new_economy sheet that helped me to calibrate prices, stock and cargo of ships. Also, I upload the economy_mod_equilibrium2.wxmx file that helped me set ship prices along with economy_mod.tex and its corresponding [economy_mod.pdf](https://github.com/jimishol/Pioneerspacesim_trading_economy/files/7089961/economy_mod.pdf)
