@@ -34,10 +34,10 @@ An economy mod is included in docs subfolder.
 Mods are described in https://pioneerwiki.com/wiki/Mods. Download the economy_mod.zip file and move it in in pioneer's configuration mods subfolder, that should exist by default. Start a new game and enjoy a feeling of calibrated both stock and prices of commodities and cargo and prices of ships. 
 
 The mod treats ships as upgrades from one to the next, starting from 'lunarshuttle'.
-I upload a new version of commodities.ods that includes new_economy sheet that helped me to calibrate prices, stock and cargo of ships. Also, I upload the economy_mod_equilibrium.wxmx file that helped me set ship prices along with economy_mod.tex and its corresponding [economy_mod.pdf](https://github.com/jimishol/Pioneerspacesim_trading_economy/files/7075341/economy_mod.pdf), that informs about economy mod creation.
+I upload a new version of commodities.ods that includes new_economy sheet that helped me to calibrate prices, stock and cargo of ships. Also, I upload the economy_mod_equilibrium2.wxmx file that helped me set ship prices along with economy_mod.tex and its corresponding [economy_mod.pdf](https://github.com/jimishol/Pioneerspacesim_trading_economy/files/7089961/economy_mod.pdf)
+, that informs about economy mod creation.
 Beyond cargo, stock and prices, it is added
 
-    • a prerequisite feature or upgrades on ships 
     • when a system is visited for the very first time, it offers increased major export stock on stations
     (in an attempt to lure new customers)    
     • taxi and assassinations missions have reduced rewards to 2/3 or ¾ of what ‘lunarshuttle’ can get by trading.
@@ -47,4 +47,4 @@ Assuming time spent on discussions to define the right 4 or 5 values of game tar
 My hope is to inspire  some real developer. 
 
 
-For example the creation of a prerequisite tag in ships json files, that would be exported to SpaceStation.lua module, would eliminate my ugly inserted lua code.  Ship designers could develop a series of ships for every model, calibrating volume and other technical stuff of ships. (I altered only cargo, capacity and prices). Or, they could expose player’s current cargo to mission modules so as typical rewards to link with player’s profit earning abilities dynamically and not just to the starting of the upgrade chain of ships, as I did (because mission modules are execute on game start event and possibly they do not know anything about player's cargo at that time).
+For example ship designers could expose player’s current cargo to mission modules so as typical rewards to link with player’s profit earning abilities dynamically and not just to the starting of the upgrade chain of ships, as I did (because mission modules are execute on game start event and possibly they do not know anything about player's cargo at that time).
