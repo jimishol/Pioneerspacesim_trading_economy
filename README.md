@@ -29,22 +29,32 @@ In doc folder there are all the files i used for the creation of my pdf article.
 
 ECONOMY MOD
 ---
-An economy mod is included in docs subfolder.
+An economy mod is included in docs/economy_mod subfolder.
 
 Mods are described in https://pioneerwiki.com/wiki/Mods. Download the economy_mod.zip file and move it in pioneer's configuration mods subfolder, that should exist by default. Start a new game and enjoy a feeling of calibrated both stock and prices of commodities and cargo and prices of ships. 
 
 The mod treats ships as upgrades from one to the next, starting from 'lunarshuttle'.
 I upload a new version of commodities.ods that includes new_economy sheet that helped me to calibrate prices, stock and cargo of ships. Also, I upload the economy_mod_equilibrium2.wxmx file that helped me set ship prices along with economy_mod.tex and its corresponding https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod/economy_mod.pdf
 , that informs about economy mod creation.
-Beyond cargo, stock and prices, it is added
+Beyond cargo and prices (https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod/economy_mod.zip), it is added
 
+    • prerequisite feature that filters out ship advertisments if player is not their prerequisite ship
+    (https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod/prerequisite_mod.zip).
     • when a system is visited for the very first time, it offers increased major export stock on stations
-    (in an attempt to lure new customers)    
-    • taxi and assassinations missions have reduced rewards to 2/3 or ¾ of what ‘lunarshuttle’ can get by trading.
+    (in an attempt to lure new customers).
+    It is added in both the prerequisite_mod.zip and the 'no_prerequisite_mod.zip'
+    (https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/no_prerequisite_mod.zip).
+    Chose one of them to copy it in mods folder.
+    • taxi and assassinations missions have reduced rewards to 2/3 or ¾ of what ‘lunarshuttle’ can get by trading
+    (https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod/missions_reduced_mod.zip).
 
-Assuming time spent on discussions to define the right 4 or 5 values of game targets, calibration of economy needs just few minutes to be done.
+Assuming time spent on discussions to define the right 4 or 5 values of game targets,
 
+calibration of economy needs just few minutes to be done.
+---
 My hope is to inspire  some real developer. 
 
 
 For example ship designers could expose player’s current cargo to mission modules so as typical rewards to link with player’s profit earning abilities dynamically and not just to the starting of the upgrade chain of ships, as I did (because mission modules are execute on game start event and possibly they do not know anything about player's cargo at that time).
+
+Sorry, I didn't hear. Did you say "vain hopes"? It will show.
