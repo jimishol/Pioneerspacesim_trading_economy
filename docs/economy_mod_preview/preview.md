@@ -2,16 +2,16 @@
 
 ## 1.1 Xylophis
 
-local system Missions served well till i get hyperdive 1.
+**local system** Missions served well till i get hyperdive 1.
 
-Local activities with Xylophis. As soon as i started new game, I sold radar.
-Is it is not needed in trading. So, i start game with 644credits instead pf 100c
+**Local activities** with Xylophis. As soon as i started new game, I sold radar.
+Is it is not needed in trading. So, i start game with 644credits instead pf 100c:wink:
 
 1. Package for 105c.
 2. Cargo local 4t for 200c and package for 105c.
 3. Cargo local for 100c.
 
-I get hyperdrive Equipment was autopilot and hyperdrive. 4t cargo for
+**I get hyperdrive** Equipment was autopilot and hyperdrive. 4t cargo for
 trading only 1available cabinet for taxi.
 
 1. Package for 590c. (I crashed twice on a ship that stands out of fuel at
@@ -28,7 +28,7 @@ trading only 1available cabinet for taxi.
 10. Package for 950c.
 11. Package for 1125c.
 12. Package for 280c. (I bought trade computer usuful because it weights
-0t)
+0t:smile:)
 13. Taxi for 550c and 3t for 543.21c (Almost to crash with some take off ship.)
 14. Taxi for 1550c.
 15. Post service for 990c and 4t for 221,00c.
@@ -57,7 +57,7 @@ imports robots trading back and forth 3t. Without radar i could trade 4t of
 each getting total average 972.06 credits persu. Sold out module gave 3-4 nice
 surprises till i get to 15676credits.
 
-Average profit of 937.25 credits/su. Duration 27su. Opportunity came
+**Average profit of 937.25 credits/su. Duration 27su.** Opportunity came
 to buy available Kanara ship.
 
 ## 1.2 Kanara (civilian)
@@ -65,10 +65,10 @@ to buy available Kanara ship.
 Only hyperdrive and autopilot. Left with 5978,42c cash. Kanara has only 2t
 for trading but can get multiple cabinets for taxi missions.
 
-Activities with Kanara.
+**Activities** with Kanara.
 
 1. Risky package for 1270c. Enemy intercepted but was unable to engage in
-    combat.
+    combat:smile:.
 2. Taxi for 1050c. Enemy intercepted but was unable to engage in combat
     except a little during destination’s approach where my ship slowed down.
     Hull repair costed 422.56c. So, i earned 627,44c.
@@ -93,8 +93,6 @@ combat.
 19. Risky package for 2435.00c Enemy intercepted but was unable to engage
 in combat.
 20. 2t Major export of medicines for 358.36c.
-
-
 21. Taxi for 850c.
 22. Taxi for 1065c.
 23. Recognition for 1800c
@@ -105,7 +103,7 @@ in combat.
 28. Sold out for 1397.48c.
 29. Risky package 1575.00c.
 
-Average profit 847,82credits/su. Duration 29su. Xylophis was better
+**Average profit 847,82credits/su. Duration 29su.** Xylophis was better
 but traveling with kanara was easier. Xylophis, due to time accelerations, had
 much more crashes because his engine was unable to correct acceleration’s in-
 accuracies and gravity of large stars.
@@ -116,7 +114,7 @@ It comes the opportunity to try Amphiesma.
 has 13t for trading. Only hyperdrive with 1t of fuel and autopilot. Left only
 with 696.43c cash. Can taxi up to 2 cabins.
 
-Activities with Amphiesma
+**Activities** with Amphiesma
 
 1. 2t for 88.15c.
 2. Package for 1230.00c
@@ -143,7 +141,7 @@ Found 11t of precious metals, i can buy all. At last! Level of efficient trading
 reached.
 
 
-Average profit 1038.89 credits/su. Duration 19su. Better than previous
+**Average profit 1038.89 credits/su. Duration 19su.** Better than previous
 ships, but i should wait to have some cash after the purchase. I could have at
 least doubled the profit from Amphiesma if i stayed with older ship a little
 longer.
@@ -158,7 +156,7 @@ start to affect game decisions. New section in present review is needed.
 has 13t for trading. Only hyperdrive with 1t of fuel and autopilot. I have
 21155.31c cash. Can taxi up to 2 cabins.
 
-Activities with Amphiesma
+**Activities** with Amphiesma
 
 1. 13t of precious metals Major to minor for 3294.06c. Back to preciouw
     with Major to minor mining machinery.
@@ -186,7 +184,7 @@ comes out that i had visited system 3 years ago. That is why i have
 reduced Major exports.
 18. 13t medicines Major to minor for 2603.38c.
 
-Average profit 2491.13 credits/su. Duration 18su. Opportunity comes
+**Average profit 2491.13 credits/su. Duration 18su.** Opportunity comes
 for Sinonatrix.
 
 
@@ -194,7 +192,7 @@ for Sinonatrix.
 
 Autopilot, hyperdrive and 4t fuel, leaves 24t free cargo.
 
-Activities with Sinonatrix.
+**Activities** with Sinonatrix.
 
 1. 4t Major to minor precious metals for 1197.85c. My cash is 36756.31cred-
     its.
@@ -245,15 +243,17 @@ export of robots. I will try my luck there in case i can earn more profit.
 19. 14t for 1327.48c.
 20. 24t for 2140.32c.
 
-Average profit 3389.96^1 credits/su. Duration 20su. Opportunity comes
+**Average profit 3389.96[^1] credits/su. Duration 20su.** Opportunity comes
 for Molamola. It is the second time i play my mod and seems that ships tent to
 appear near Sol. If one is away he may not meet some specific ship he wants.
+
+([^1]: If we exclude last 4 trips, the average is 3939.60credits/su.)
 
 2.2.1 Molamola
 
 Autopilot, hyperdrive and 5t fuel, leaves 30t free cargo.
 
-Activities with Molamola.
+**Activities**with Molamola.
 
 1. 30t for 1601.40c.
 2. 15t neutral to minor computers for 2001.30c.
@@ -283,18 +283,16 @@ Relatively small profit because i am old customer of previous system. Lets
 find another system that minor imports medicine.
 19. 24t Major to minor medicines for 3794.4c and 8t Major to major farm
 machinery for 1326.00c.
-
-(^1) If we exclude last 4 trips, the average is 3939.60credits/su.
-
-
 20. Taxi for 4350c and 18t minor to Major computers for 2916.18c.
 21. 24t Major to minor medicines for 4806.24c and 8t for 866.64c.
 22. 24t Major to major farm machinery for 4080c.
 23. 27t Major to minor medicines for 5407.02c and 5t for 541.65c.
 24. 32t Major to major farm machinery for 5440c.
 
-Average profit 3702.24^2 credits/su. Duration 24su. Opportunity comes
+**Average profit 3702.24[^2] credits/su. Duration 24su.** Opportunity comes
 for Natrix.
+
+([^2]: If we exclude first 4 trips, the average is 4218.87credits/su.)
 
 2.2.2 Natrix
 
@@ -302,7 +300,7 @@ Autopilot, hyperdrive and 4t fuel, leaves 43t free cargo. I had trouble to take
 off. Natrix empty has 0.7g up thrust and i bought it on planet with 0.518g.
 Loaded up thrust was 0.5g and could not take off.
 
-Activities with Natrix.
+**Activities** with Natrix.
 
 1. 26t Major to minor medicines for 5206.76c and 17t for 1841.61c.
 2. 43t Major to major farm machinery for 7310.00c. I have 43t free cargo and
@@ -331,17 +329,14 @@ Activities with Natrix.
 1272.96c.
 16. 45t minor to Major farm machinery for 7076.25c.
 
-(^2) If we exclude first 4 trips, the average is 4218.87credits/su.
-
-
-Average profit 6373.07 credits/su. Duration 16su. Opportunity comes
+**Average profit 6373.07 credits/su. Duration 16su.** Opportunity comes
 for Skipjack.
 
 2.2.3 Skipjack
 
 Autopilot, hyperdrive and 21t fuel, leaves 121t free cargo.
 
-Activities with Skipjack. I need 1 crew for this ship. I hired one at 3231/07/
+**Activities** with Skipjack. I need 1 crew for this ship. I hired one at 3231/07/
 for 137/week.
 
 1. 34t Major to minor liquor for 4689.28c and 11t Major to minor meat for
@@ -353,36 +348,34 @@ for 137/week.
     fertilizers for 2016c.
     Too much free space should correct json
 
-Re-calibrating the economy mod was done only by commodities.ods. As,
+**Re-calibrating the economy mod** was done only by commodities.ods. As,
 with general restriction, there is different profit per each ship that can be esti-
 mated, the callibration was done such as each upgrade of ship to happen after
 about 20su. Dsminer wants about 40su. Free cargo was calculated better and
 amphiesma got into picture as prerequisite of lunarshuttle.
 
-Skipjack was acquired by lua interpreter, as it was too trouble to
+**Skipjack was acquired by lua interpreter,** as it was too trouble to
 start over again even from Mars.
 
-# 3 Efficient trading has started and economy re-
-
-# callibrated.
+# 3 Efficient trading has started and economy recalibrated.
 
 ## 3.1 Skipjack
 
-Autopilot, hyperdrive and 16t fuel, leaves 68t^3 free cargo.
+Autopilot, hyperdrive and 16t fuel, leaves 68t[^3] free cargo.
 
-Activities with Skipjack. I need 1 crew for this ship. I hired one at 3231/07/
+([^3]: It says 79t as it calculates the whole capacity.)
+
+**Activities** with Skipjack. I need 1 crew for this ship. I hired one at 3231/07/
 for 137/week.
 
-1. 38t Major to minor liquor for 5240.96c and 30t+10t^4 Major to minor meat
+1. 38t Major to minor liquor for 5240.96c and 30t+10t[^4] Major to minor meat
     for 3916.8c.
+    
+    ([^4]: I removed 10t fuel)
+    
 2. 81t minor to Major farm machinery for 12737.25c.
 3. 56t Major to minor liquor for 7723.52c and 25t Major to minor meat for
     2448.00c.
-
-(^3) It says 79t as it calculates the whole capacity.
-(^4) I removed 10t fuel
-
-
 4. 81t minor to Major farm machinery for 12737.25c.
 5. 74t NEWS for 44133.59c!
 6. 74t Major to minor meat for 10656.00c.
@@ -393,20 +386,29 @@ for 137/week.
 10. 46t Major to minor liquor for 6344.32c and 35t Major to minor meat for
 3427.20c.
 11. 35t for NEWS for 81376.75c (You are kidding. Accept the money, thank
-you)^5
+you)[^5]
 12. 68t minor to Major farm machinery for 10404.00c.
 
-Average profit 11068.13 credits/su. Duration 10su. Not counting the
+**Average profit 11068.13 credits/su. Duration 10su.** Not counting the
 two NEWS event that offered the outrageous cash of 125510.34c. As average
 it was expected around 8779c but i found a station to trade 2 Major to minor
 commodities from it while the back and forth station was only 5 ly away and
 could reduce fuel and increase free cargo. Opportunity comes for Deneb.
 
+([^5]: I do not accept. Removed 80000c from my cash. Fixed and calibrated once again economy.
+Minor exports reduce their stock on non new customers too. Fixed sold out and News event.
+Sold out randoms normally, and not lograndom, up to normal demand. Double price remains
+and means at least 4 times more than usual profit. In news, 10 times a price means at least
+20 times normal profit and was huge. I altered to a max of 3*price that means 6 times more
+than usual profit. Deneb starts at calibrated economy.)
+
 3.1.1 Deneb
 
-Autopilot, hyperdrive and 16t fuel, leaves 95t^6 free cargo. Cash 23179c.
+Autopilot, hyperdrive and 16t fuel, leaves 95t[^6] free cargo. Cash 23179c.
 
-Activities with Deneb. I need 1 crew for this ship.
+([^6]: It says 124t as it calculates the whole capacity.)
+
+**Activities** with Deneb. I need 1 crew for this ship.
 
 1. 30t (missing cash) Major to minor liquor for 4137.60c.
 2. 68t (missing cash) minor to Major farm machinery for 10693c.
@@ -422,16 +424,6 @@ Activities with Deneb. I need 1 crew for this ship.
 8. 40t for 7928.80c and 21t for 5390.29c. Major export medicines is 72t.
     Bad luck of specialization or need a little less expensive commodity. Must
     check.
-
-(^5) I do not accept. Removed 80000c from my cash. Fixed and calibrated once again economy.
-Minor exports reduce their stock on non new customers too. Fixed sold out and News event.
-Sold out randoms normally, and not lograndom, up to normal demand. Double price remains
-and means at least 4 times more than usual profit. In news, 10 times a price means at least
-20 times normal profit and was huge. I altered to a max of 3*price that means 6 times more
-than usual profit. Deneb starts at calibrated economy.
-(^6) It says 124t as it calculates the whole capacity.
-
-
 9. 105t for 7586.25c. Found 86t Major export of medicine. I will stick to
     them.
 10. 86t Major to neutral medicines for 19035.23c.
@@ -453,23 +445,23 @@ new game. So, i played deneb with old commodity prices, after last callibration,
 and i am not willing to continue with false prices of commodities or start new
 review with new game.
 
-The game play is much more interesting, it is not flat around some
+**The game play is much more interesting,** it is not flat around some
 station with precious metals and shows a variety in an unexpected large degree.
 
-Last calibration did not used equilibrium equations at all, it was done
+**Last calibration did not used equilibrium equations at all,** it was done
 only by the use of myeconomy sheet in commodities.ods file.
 
-All that current trading system is needed, is an exponential in line 48
-of SpaceStation.lua file. The existences of it guaranties the control of game
+**All that current trading system is needed, is an exponential in line 48
+of SpaceStation.lua file.** The existences of it guaranties the control of game
 design. The current master branch game is flat. Line 48 says profit(x)=constant.
 That function is not invertible and that fact flattens the game play. With
 exponential, profit(x) function is invertible and that makes each ship different,
 accordingly to how much cargo it can trade.
 
-Copy the zip files, economymod.zip, missionsreducedmod.zip and prereq-
-uisitemod.zip, and enjoy a more interesting trading system. I prefer that three.
-If you disagree with prerequisite feature, instead of last prerequisitemod.zip file,
-copy the noprerequisitemod.zip that is in doc folder. In that case, on start is
+**Copy the zip files,** * *economy_mod.zip, missions_reduced_mod.zip and 
+prerequisite_mod.zip,* * and enjoy a more interesting trading system. I prefer that three.
+If you disagree with prerequisite feature, instead of last prerequisite_mod.zip file,
+copy the no_prerequisite_mod.zip that is in doc folder. In that case, on start is
 faster to collect cash toward dsminer with amphiesma but at some point one
 must acquire another ship.
 
@@ -490,7 +482,7 @@ an economy simulation model. The exponential does not alter or add any code.
 If we assume that current exponential equals to 1 then only prices are affected
 and ship cargos a little.
 
-Programmers must trust mathematics and statistics. Else they end
+**Programmers must trust mathematics and statistics.** Else they end
 to try to make the player chase an 1% or 2% on his average profit and other
 similar stuff or goals, ignoring that it is impossible, since player needs 10000
 similar trades to be aware of the fact of 1% improvement.
@@ -500,7 +492,7 @@ similar trades to be aware of the fact of 1% improvement.
 # the game much more than i used to.
 
 I enjoy both the trading development of my character (ship) and a beautiful sky
-background with constellations. My eye constantly shifts, back and forth,
+**background with constellations**. My eye constantly shifts, back and forth,
 from planet to sky background constellations. To see constellation you need to
 alter 3 or 4 for values in Starfield.ini file. As with economy, developers were
 not interested on constallations either. In both cases my fixes are too simple
