@@ -58,4 +58,4 @@ Sorry, I didn't hear. Did you say "vain hopes"? It will show.
 
 **A descriptive [preview](https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod_preview/preview.md) and a gift irrelevant constellation mod is added.** If you use constelation mod remeber at options to change dense of stars, from the default 100, to 18.
 
-**You cam check that almost no code is added** [here](https://github.com/jimishol/Pioneerspacesim_trading_economy/tree/main/docs/economy_mod/code) conserning the line 48 of SpaceStation.lua. Whatever code is enter demonstrates the possibilities that open on designing both missions and trading.
+**You cam check that almost no code is added** [here](https://github.com/jimishol/Pioneerspacesim_trading_economy/tree/main/docs/economy_mod/code) conserning the line 48 of SpaceStation.lua. Whatever code is enterrd, demonstrates the possibilities that open on designing both missions and trading.
