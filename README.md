@@ -56,4 +56,4 @@ For example ship designers could expose player’s current cargo to mission modu
 
 Sorry, I didn't hear. Did you say "vain hopes"? It will show.
 
-**A descriptive [preview](https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod_preview/preview.md) and a gift irrelevant constellation mode is added.** If you use constelation mod remeber at options to change dense of stars, from the default 100, to 18.
+**A descriptive [preview](https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod_preview/preview.md) and a gift irrelevant constellation mod is added.** If you use constelation mod remeber at options to change dense of stars, from the default 100, to 18.
