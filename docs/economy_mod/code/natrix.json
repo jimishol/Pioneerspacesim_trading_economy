@@ -1,0 +1,53 @@
+{
+	"model": "natrix",
+	"name": "Natrix",
+	"cockpit": "",
+	"manufacturer": "opli",
+	"ship_class": "medium_freighter",
+	"min_crew": 1,
+	"max_crew": 3,
+	"price": 224849,
+	"hull_mass": 50,
+	"atmospheric_pressure_limit": 3.3,
+	"capacity": 64,
+	"slots": {
+		"engine": 1,
+		"cabin": 25,
+		"laser_front": 1,
+		"laser_rear": 1,
+		"missile": 2,
+		"cargo": 60
+	},
+	"roles": ["mercenary", "merchant", "pirate", "courier"],
+
+	"effective_exhaust_velocity": 18000000,
+	"thruster_fuel_use": -1.0,
+	"fuel_tank_mass": 60,
+	"hyperdrive_class": 2,
+
+	"forward_thrust": 2700000,
+	"forward_acceleration_cap": 17.658,
+	"reverse_thrust": 1300000,
+	"reverse_acceleration_cap": 17.658,
+	"up_thrust": 850000,
+	"up_acceleration_cap": 17.658,
+	"down_thrust": 850000,
+	"down_acceleration_cap": 10.0062,
+	"left_thrust": 850000,
+	"left_acceleration_cap": 10.0062,
+	"right_thrust": 850000,
+	"right_acceleration_cap": 10.0062,
+
+	"angular_thrust": 8124820.47813459,
+
+	"front_cross_section": 37,
+	"side_cross_section": 95,
+	"top_cross_section": 290,
+
+	"front_drag_coeff": 0.45,
+	"side_drag_coeff": 0.78,
+	"top_drag_coeff": 0.98,
+
+	"lift_coeff": 0.1,
+	"aero_stability": 0.45
+}

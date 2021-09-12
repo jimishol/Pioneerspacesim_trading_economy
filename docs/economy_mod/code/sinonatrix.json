@@ -1,0 +1,52 @@
+{
+	"model": "sinonatrix",
+	"name": "Sinonatrix",
+	"cockpit": " ",
+	"manufacturer": "opli",
+	"ship_class": "light_courier",
+	"min_crew": 1,
+	"max_crew": 2,
+	"price": 135940,
+	"hull_mass": 28,
+	"atmospheric_pressure_limit": 3.2,
+	"capacity": 39,
+	"slots": {
+		"engine": 1,
+		"cabin": 3,
+		"laser_front": 1,
+		"missile": 4,
+		"cargo": 34
+	},
+	"roles": ["mercenary", "merchant", "pirate", "courier"],
+
+	"effective_exhaust_velocity": 16000000,
+	"thruster_fuel_use": -1.0,
+	"fuel_tank_mass": 36,
+	"hyperdrive_class": 2,
+
+	"forward_thrust": 2000000,
+	"forward_acceleration_cap": 38.259,
+	"reverse_thrust": 900000,
+	"reverse_acceleration_cap": 17.658,
+	"up_thrust": 1800000,
+	"up_acceleration_cap": 19.62,
+	"down_thrust": 600000,
+	"down_acceleration_cap": 14.715,
+	"left_thrust": 600000,
+	"left_acceleration_cap": 14.715,
+	"right_thrust": 600000,
+	"right_acceleration_cap": 14.715,
+
+	"angular_thrust": 4022984.98620251,
+
+	"front_cross_section": 42.2,
+	"side_cross_section": 60.8,
+	"top_cross_section": 170,
+
+	"front_drag_coeff": 0.3,
+	"side_drag_coeff": 0.5,
+	"top_drag_coeff": 0.98,
+
+	"lift_coeff": 0.2,
+	"aero_stability": 0.6
+}

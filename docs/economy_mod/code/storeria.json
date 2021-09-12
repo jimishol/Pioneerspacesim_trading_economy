@@ -1,0 +1,53 @@
+{
+	"model": "storeria",
+	"name": "Storeria",
+	"cockpit": "",
+	"manufacturer": "opli",
+	"ship_class": "medium_freighter",
+	"min_crew": 1,
+	"max_crew": 5,
+	"price": 947998,
+	"hull_mass": 500,
+	"atmospheric_pressure_limit": 3.2,
+	"capacity": 985,
+	"slots": {
+		"engine": 1,
+		"cabin": 30,
+		"laser_front": 1,
+		"laser_rear": 1,
+		"missile": 1,
+		"cargo": 835
+	},
+	"roles": ["merchant"],	
+	
+	"effective_exhaust_velocity": 11900000,
+	"thruster_fuel_use": -1.0,
+	"fuel_tank_mass": 1000,
+	"hyperdrive_class": 7,
+
+	"forward_thrust": 45000000,
+	"forward_acceleration_cap": 16.677,
+	"reverse_thrust": 11000000,
+	"reverse_acceleration_cap": 11.772,
+	"up_thrust": 14000000,
+	"up_acceleration_cap": 14.715,
+	"down_thrust": 11000000,
+	"down_acceleration_cap": 11.772,
+	"left_thrust": 11000000,
+	"left_acceleration_cap": 11.772,
+	"right_thrust": 11000000,
+	"right_acceleration_cap": 11.772,
+
+	"angular_thrust": 196679265.992123,
+
+	"front_cross_section": 125,
+	"side_cross_section": 240,
+	"top_cross_section": 865,
+
+	"front_drag_coeff": 0.67,
+	"side_drag_coeff": 1.05,
+	"top_drag_coeff": 1.1,
+
+	"lift_coeff": 0,
+	"aero_stability": 0.7
+}
