@@ -487,9 +487,7 @@ to try to make the player chase an 1% or 2% on his average profit and other
 similar stuff or goals, ignoring that it is impossible, since player needs 10000
 similar trades to be aware of the fact of 1% improvement.
 
-# 5 The fact is that, by my simple mod, I enjoy
-
-# the game much more than i used to.
+# 5 The fact is that, by my simple mod, I enjoy the game much more than i used to.
 
 I enjoy both the trading development of my character (ship) and a beautiful sky
 **background with constellations**. My eye constantly shifts, back and forth,
