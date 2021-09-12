@@ -37,17 +37,14 @@ The mod treats ships as upgrades from one to the next, starting from 'lunarshutt
 I upload a new version of commodities.ods that includes new_economy sheet that helped me to calibrate prices, stock and cargo of ships. Also, I upload the economy_mod_equilibrium2.wxmx file that helped me set ship prices along with economy_mod.tex and its corresponding https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod/economy_mod.pdf,
 that informs about economy mod creation.
 Beyond cargo and prices (https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod/economy_mod.zip), it is added
-
-    • prerequisite feature that filters out ship advertisments if player is not their prerequisite ship
-    (https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod/prerequisite_mod.zip).
-    • when a system is visited for the very first time, it offers increased major export stock on stations
-    (in an attempt to lure new customers).
+- prerequisite feature that filters out ship advertisments if player is not their prerequisite ship
+(https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod/prerequisite_mod.zip).
+- when a system is visited for the very first time, it offers increased major export stock on stations (in an attempt to lure new customers).
     It is added in both the prerequisite_mod.zip and the 'no_prerequisite_mod.zip'
-    (https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/no_prerequisite_mod.zip).
-    Chose one of them to copy it in mods folder.
-    • taxi and assassinations missions have reduced rewards to 2/3 or ¾ of what player can get by trading
+    (https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/no_prerequisite_mod.zip). Chose one of them to copy it in mods folder.  
+- taxi and assassinations missions have reduced rewards to 2/3 or ¾ of what player can get by trading
     (https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod/missions_reduced_mod.zip).
-
+    
 Assuming time spent on discussions to define the right 4 or 5 values of game targets,
 
 calibration of economy needs just few minutes to be done.
@@ -58,3 +55,5 @@ My hope is to inspire  some real developer.
 For example ship designers could expose player’s current cargo to mission modules so as typical rewards to link with player’s profit earning abilities dynamically or they could define prerequisite tags in a way far better thatn that i did.
 
 Sorry, I didn't hear. Did you say "vain hopes"? It will show.
+
+**A descriptive [preview](https://github.com/jimishol/Pioneerspacesim_trading_economy/blob/main/docs/economy_mod_preview/preview.md) and a gift irrelevant constellation mode is added.** If you use constelation mod remeber at options to change dense of stars, from the default 100, to 18.
