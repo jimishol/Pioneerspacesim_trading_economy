@@ -1,0 +1,955 @@
+[09:27:01]    Info: ver 20210723 (0b82c65) on: Linux
+
+[09:27:01]    Info: System Name: Linux
+Host Name: desktop-opensuse
+Release(Kernel) Version: 5.14.5-1-default
+Kernel Build Timestamp: #1 SMP Thu Sep 16 12:39:52 UTC 2021 (fdb6afd)
+Machine Arch: x86_64
+Domain Name: 
+
+[09:27:01]    Info: adding mod: mods/constellations.zip
+[09:27:01]    Info: --------------------
+[09:27:01]    Info: SDL Version (build) 2.0.10
+[09:27:01]    Info: SDL Version (dynamic) 2.0.16
+[09:27:01]    Info: WARNING: SDL Versions differ
+[09:27:01]    Info: SDL_image Version (build): 2.0.5
+[09:27:01]    Info: SDL_image Version (dynamic): 2.0.5
+[09:27:01]    Info: SDL_image Versions match
+[09:27:01]    Info: Assimp Version: 5.0.0
+[09:27:01]    Info: FreeType Version: 2.10.1
+[09:27:01]    Info: GLEW dynamic version: 2.0.0
+[09:27:01]    Info: --------------------
+
+[09:27:01]    Info: Initialized OpenGL 3.1, with extensions, renderer
+[09:27:01]    Info: Initializing joystick subsystem.
+[09:27:01]    Info: Found joystick 'Microsoft SideWinder Force Feedback 2 Joystick' (GUID: 030000005e0400001b00000000010000)
+[09:27:01]    Info: - 4 axes, 9 buttons, 1 hats
+[09:27:01]    Info: - axis 0: deadzone 0.00, curve: 1.00, half-axis mode: 0
+[09:27:01]    Info: - axis 1: deadzone 0.00, curve: 1.00, half-axis mode: 0
+[09:27:01]    Info: - axis 2: deadzone 0.00, curve: 1.00, half-axis mode: 0
+[09:27:01]    Info: - axis 3: deadzone 0.00, curve: 1.00, half-axis mode: 0
+[09:27:01]    Info: font orbiteer:
+[09:27:01]    Info: - Orbiteer-Bold.ttf 1.000000
+[09:27:01]    Info: - DejaVuSans.ttf 1.200000
+[09:27:01]    Info: - wqy-microhei.ttc 1.000000
+[09:27:01]    Info: font pionillium:
+[09:27:01]    Info: - PionilliumText22L-Medium.ttf 1.000000
+[09:27:01]    Info: - DejaVuSans.ttf 0.928571
+[09:27:01]    Info: - wqy-microhei.ttc 1.000000
+[09:27:01]   Debug: Loaded economy agricultural (id 1)
+	generation: agri. 1.00 ind. 0.00 metal. 0.00 pop. 1.00 random 0.00
+[09:27:01]   Debug: Loaded economy industrial (id 2)
+	generation: agri. 0.00 ind. 1.00 metal. 0.00 pop. 1.00 random 0.00
+[09:27:01]   Debug: Loaded economy mining (id 3)
+	generation: agri. 0.00 ind. 0.00 metal. 1.00 pop. 1.00 random 0.00
+[09:27:01]   Debug: Commodity animal_meat (1) loaded (producer: 1, price: 125.0, inputs: 16:1.0, 17:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity fruit_and_veg (2) loaded (producer: 1, price: 105.0, inputs: 16:1.0, 17:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity grain (3) loaded (producer: 1, price: 41.0, inputs: 16:1.0, 17:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity liquor (4) loaded (producer: 1, price: 422.0, inputs: 16:1.0, 17:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity live_animals (5) loaded (producer: 1, price: 932.0, inputs: 16:1.0, 17:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity slaves (6) loaded (producer: 1, price: 1011.0, inputs: 0:0.0, 0:0.0, legality: 6%)
+[09:27:01] Warning: Commodity rubbish has invalid producing economy ALL
+[09:27:01]   Debug: Commodity rubbish (7) loaded (producer: 0, price: -0.7, inputs: 0:0.0, 0:0.0, legality: 100%)
+[09:27:01]   Debug: Commodity air_processors (8) loaded (producer: 2, price: 204.0, inputs: 23:1.0, 11:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity battle_weapons (9) loaded (producer: 2, price: 607.0, inputs: 19:1.0, 11:1.0, legality: 33%)
+[09:27:01]   Debug: Commodity computers (10) loaded (producer: 2, price: 461.0, inputs: 30:1.0, 11:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity industrial_machinery (11) loaded (producer: 2, price: 124.0, inputs: 19:1.0, 14:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity medicines (12) loaded (producer: 2, price: 563.0, inputs: 10:1.0, 26:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity nerve_gas (13) loaded (producer: 2, price: 813.0, inputs: 0:0.0, 0:0.0, legality: 10%)
+[09:27:01]   Debug: Commodity robots (14) loaded (producer: 2, price: 829.0, inputs: 23:1.0, 10:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity consumer_goods (15) loaded (producer: 2, price: 246.0, inputs: 23:1.0, 25:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity farm_machinery (16) loaded (producer: 2, price: 80.0, inputs: 19:1.0, 14:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity fertilizer (17) loaded (producer: 2, price: 15.0, inputs: 26:1.0, 0:0.0, legality: 100%)
+[09:27:01]   Debug: Commodity hand_weapons (18) loaded (producer: 2, price: 251.0, inputs: 19:1.0, 10:1.0, legality: 50%)
+[09:27:01]   Debug: Commodity metal_alloys (19) loaded (producer: 2, price: 43.0, inputs: 29:1.0, 11:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity military_fuel (20) loaded (producer: 2, price: 49.0, inputs: 27:1.0, 0:0.0, legality: 100%)
+[09:27:01]   Debug: Commodity mining_machinery (21) loaded (producer: 2, price: 312.0, inputs: 19:1.0, 14:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity narcotics (22) loaded (producer: 2, price: 632.0, inputs: 0:0.0, 0:0.0, legality: 50%)
+[09:27:01]   Debug: Commodity plastics (23) loaded (producer: 2, price: 36.0, inputs: 26:1.0, 11:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity radioactives (24) loaded (producer: 2, price: -4.4, inputs: 0:0.0, 0:0.0, legality: 100%)
+[09:27:01]   Debug: Commodity textiles (25) loaded (producer: 2, price: 65.0, inputs: 23:1.0, 0:0.0, legality: 100%)
+[09:27:01]   Debug: Commodity carbon_ore (26) loaded (producer: 3, price: 7.0, inputs: 21:1.0, 0:0.0, legality: 100%)
+[09:27:01]   Debug: Commodity hydrogen (27) loaded (producer: 3, price: 5.0, inputs: 0:0.0, 0:0.0, legality: 100%)
+[09:27:01]   Debug: Commodity liquid_oxygen (28) loaded (producer: 3, price: 9.8, inputs: 31:1.0, 11:1.0, legality: 100%)
+[09:27:01]   Debug: Commodity metal_ore (29) loaded (producer: 3, price: 43.0, inputs: 21:1.0, 0:0.0, legality: 100%)
+[09:27:01]   Debug: Commodity precious_metals (30) loaded (producer: 3, price: 2180.0, inputs: 21:1.0, 0:0.0, legality: 100%)
+[09:27:01]   Debug: Commodity water (31) loaded (producer: 3, price: 1.2, inputs: 21:1.0, 0:0.0, legality: 100%)
+[09:27:01]   Debug: Loaded consumable data for commodity air_processors (8) -> (32-128, 0.50)
+[09:27:01]   Debug: Loaded consumable data for commodity animal_meat (1) -> (32-128, 0.50)
+[09:27:01]   Debug: Loaded consumable data for commodity consumer_goods (15) -> (32-128, 1.00)
+[09:27:01]   Debug: Loaded consumable data for commodity fruit_and_veg (2) -> (32-128, 0.50)
+[09:27:01]   Debug: Loaded consumable data for commodity grain (3) -> (32-128, 0.50)
+[09:27:01]   Debug: Loaded consumable data for commodity hand_weapons (18) -> (32-128, 1.00)
+[09:27:01]   Debug: Loaded consumable data for commodity liquid_oxygen (28) -> (32-128, 0.50)
+[09:27:01]   Debug: Loaded consumable data for commodity liquor (4) -> (32-128, 1.00)
+[09:27:01]   Debug: Loaded consumable data for commodity medicines (12) -> (32-128, 1.00)
+[09:27:01]   Debug: Loaded consumable data for commodity narcotics (22) -> (32-128, 1.00)
+[09:27:01]    Info: Loaded economy info: 3 economies, 31 commodities (10 consumable)
+
+[09:27:01]    Info: started 15 worker threads in 0.42ms
+[09:27:01]    Info: Engine startup took 518.84ms
+[09:27:01]    Info: StartupScreen::Start()
+[09:27:01]    Info: ShipType::Init()
+[09:27:01]    Info: Lua::Init()
+[09:27:01]    Info: Loading [00%]: Sound::Init started
+[09:27:01]    Info: Loading [00%]: Sound::Init took 2.86ms
+[09:27:01]    Info: Loading [08%]: Lua::InitModules() started
+[09:27:02]    Info: nanosvg: /home/jimishol/games/pioneer-bin/release/data/icons/icons.svg 384x384
+[09:27:02]    Info: nanosvg: /home/jimishol/games/pioneer-bin/release/data/icons/icons.svg 512x512
+[09:27:02]    Info: nanosvg: /home/jimishol/games/pioneer-bin/release/data/icons/icons.svg 1024x1024
+[09:27:02]    Info: nanosvg: /home/jimishol/games/pioneer-bin/release/data/icons/logo.svg 512x512
+[09:27:02]    Info: Loading [08%]: Lua::InitModules() took 165.93ms
+[09:27:02]    Info: Loading [15%]: Gui::Init() started
+[09:27:02]    Info: Loading [15%]: Gui::Init() took 0.91ms
+[09:27:02]    Info: Loading [23%]: GalaxyGenerator::Init() started
+[09:27:02]    Info: Creating new galaxy generator 'legacy' version 1
+[09:27:02]    Info: Warning: 'mass' is 0.000000 for body 'Themisto'
+[09:27:02]    Info: Warning: 'mass' is 0.000000 for body 'Lucksmall'
+[09:27:02]    Info: Number of factions added: 103
+[09:27:02]    Info: StarSystemCache: misses: 0, slave hits: 0, master hits: 0
+[09:27:02]    Info: SectorCache: misses: 101, slave hits: 0, master hits: 2
+[09:27:02]    Info: Loading [23%]: GalaxyGenerator::Init() took 13.94ms
+[09:27:02]    Info: Loading [31%]: FaceParts::Init() started
+[09:27:02]    Info: Face Generation source images loaded.
+[09:27:02]    Info: Loading [31%]: FaceParts::Init() took 1.36ms
+[09:27:02]    Info: Loading [38%]: new ModelCache started
+[09:27:02]    Info: Loading [38%]: new ModelCache took 0.00ms
+[09:27:02]    Info: Loading [46%]: Shields::Init started
+[09:27:02]    Info: Loading [46%]: Shields::Init took 0.72ms
+[09:27:02]    Info: Loading [54%]: BaseSphere::Init started
+[09:27:02]    Info: GenerateIndices: triangles count = 2312, mid indexes = 6528, hi edges = 102
+[09:27:02]    Info: Loading [54%]: BaseSphere::Init took 57.74ms
+[09:27:02]    Info: Loading [62%]: CityOnPlanet::Init started
+[09:27:02]    Info: Got 20 buildings of tag city_building
+[09:27:02]    Info: - Dome1: 39.626175
+[09:27:02]    Info: - Dome2: 48.596382
+[09:27:02]    Info: - Library: 64.693522
+[09:27:02]    Info: - Mall: 26.159388
+[09:27:02]    Info: - Tower1: 33.094160
+[09:27:02]    Info: - Tower2: 34.924003
+[09:27:02]    Info: - kbuilding01: 29.664692
+[09:27:02]    Info: - kbuilding02: 46.268344
+[09:27:02]    Info: - kbuilding03: 41.542333
+[09:27:02]    Info: - newbuilding1: 36.202756
+[09:27:02]    Info: - newbuilding10: 16.297418
+[09:27:02]    Info: - newbuilding11: 34.961034
+[09:27:02]    Info: - newbuilding2: 22.822782
+[09:27:02]    Info: - newbuilding3: 22.649894
+[09:27:02]    Info: - newbuilding4: 25.978193
+[09:27:02]    Info: - newbuilding5: 22.908506
+[09:27:02]    Info: - newbuilding6: 29.817877
+[09:27:02]    Info: - newbuilding7: 22.674426
+[09:27:02]    Info: - newbuilding8: 23.154979
+[09:27:02]    Info: - newbuilding9: 36.528138
+[09:27:02]    Info: End of buildings.
+[09:27:02]    Info: Loading [62%]: CityOnPlanet::Init took 78.47ms
+[09:27:02]    Info: Loading [69%]: SpaceStation::Init started
+[09:27:02]    Info: ground_station has:
+ 14 entrances,
+ 14 pads,
+ 0 exits
+[09:27:02]    Info: new_ground has:
+ 6 entrances,
+ 6 pads,
+ 0 exits
+[09:27:02]    Info: orbital_station_2-10k has:
+ 5 entrances,
+ 64 pads,
+ 5 exits
+[09:27:02]    Info: orbital_station_2-2k has:
+ 4 entrances,
+ 18 pads,
+ 4 exits
+[09:27:02]    Info: orbital_station_2-5k has:
+ 5 entrances,
+ 64 pads,
+ 5 exits
+[09:27:02]    Info: orbital_station_2-5k10k has:
+ 5 entrances,
+ 64 pads,
+ 5 exits
+[09:27:02]    Info: Loading [69%]: SpaceStation::Init took 233.78ms
+[09:27:02]    Info: Loading [77%]: NavLights::Init started
+[09:27:02]    Info: Loading [77%]: NavLights::Init took 0.03ms
+[09:27:02]    Info: Loading [85%]: Sfx::Init started
+[09:27:02]    Info: Loading [85%]: Sfx::Init took 2.55ms
+[09:27:02]    Info: Loading [92%]: PostLoad started
+[09:27:02]    Info: Loading [92%]: PostLoad took 0.01ms
+[09:27:02]    Info: Pioneer loading took 599.86ms
+[09:27:02]    Info: Stars picked from galaxy: 0
+[09:27:02]    Info: Final stars number: 131000
+[09:27:06]    Info: Game::LoadGame('test1')
+[09:27:06]    Info: savefile version: 87
+[09:27:06]    Info: Creating new galaxy generator 'legacy' version 1
+[09:27:06]    Info: Clearing and re-using previous Galaxy object
+[09:27:06]    Info: StarSystemCache: misses: 0, slave hits: 0, master hits: 0
+[09:27:06]    Info: SectorCache: misses: 101, slave hits: 0, master hits: 1
+[09:27:06]    Info: Stars picked from galaxy: 1811
+[09:27:06]    Info: Final stars number: 131000
+[09:27:06]    Info: Ganoresh A:
+    height fractal: Ellipsoid
+    colour fractal: StarBrownDwarf
+    seed: 2416634341
+[09:27:06]    Info: Ganoresh A a:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 1944586985
+[09:27:06]    Info: Ganoresh A b:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 952822114
+[09:27:06]    Info: Stone's Claim:
+    height fractal: MountainsCraters2
+    colour fractal: Rock
+    seed: 3354892990
+[09:27:06]    Info: Norris's Claim:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 2140645813
+[09:27:06]    Info: Ganoresh A e:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 3446020850
+[09:27:06]    Info: Ganoresh A e 1:
+    height fractal: Asteroid2
+    colour fractal: Asteroid
+    seed: 4162983833
+[09:27:06]    Info: Potts's Folly:
+    height fractal: Asteroid
+    colour fractal: Rock
+    seed: 1644999265
+[09:27:06]    Info: Ganoresh B:
+    height fractal: Ellipsoid
+    colour fractal: StarBrownDwarf
+    seed: 2789255020
+[09:27:06]    Info: Ganoresh B a:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 1601580798
+[09:27:06]    Info: Warren's Rock:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 2840593923
+[09:27:06]    Info: Ganoresh B c:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 568417073
+[09:27:21]    Info: Stars picked from galaxy: 1811
+[09:27:21]    Info: Final stars number: 131000
+[09:27:21] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:27:37] Verbose: PD-8540 leaves frameStone's Claim
+[09:28:15]    Info: 0 clouds brought over
+[09:28:15]    Info: Stars picked from galaxy: 0
+[09:28:15]    Info: Final stars number: 131000
+[09:28:15]    Info: Started hyperspacing...
+[09:28:30]    Info: Stars picked from galaxy: 1757
+[09:28:30]    Info: Final stars number: 131000
+[09:28:30]    Info: Varatrun A:
+    height fractal: Ellipsoid
+    colour fractal: StarBrownDwarf
+    seed: 1183963351
+[09:28:30]    Info: Varatrun A a:
+    height fractal: MountainsCraters2
+    colour fractal: Rock
+    seed: 3515088803
+[09:28:30]    Info: Varatrun A b:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 2919597214
+[09:28:30]    Info: Varatrun A c:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 1321367847
+[09:28:30]    Info: Varatrun A d:
+    height fractal: Barren Rock 2
+    colour fractal: Ice
+    seed: 2330096447
+[09:28:30]    Info: Varatrun A e:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 902825038
+[09:28:30]    Info: Varatrun B:
+    height fractal: Ellipsoid
+    colour fractal: StarBrownDwarf
+    seed: 1130323471
+[09:28:30]    Info: Varatrun B a:
+    height fractal: MountainsCraters2
+    colour fractal: Rock
+    seed: 3271634441
+[09:28:30]    Info: Varatrun B b:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 855663070
+[09:28:30]    Info: Varatrun B c:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 525937107
+[09:28:30]    Info: Dean Colony:
+    height fractal: HillsNormal
+    colour fractal: Rock
+    seed: 996498283
+[09:28:30]    Info: Wanstall's Rock:
+    height fractal: Barren Rock 2
+    colour fractal: Rock
+    seed: 2545632152
+[09:28:30]    Info: Varatrun B g:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 3692231762
+[09:28:30]    Info: Color Fractal name: GGSaturn
+[09:28:30] Verbose: PD-8540 enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: HD-6724 enters frameΣύστημα
+[09:28:30] Verbose: ZE-8241 enters frameΣύστημα
+[09:28:30] Verbose: EB-3833 enters frameΣύστημα
+[09:28:30] Verbose: CS-4228 enters frameΣύστημα
+[09:28:30] Verbose: LI-5010 enters frameΣύστημα
+[09:28:30] Verbose: NN-9632 enters frameΣύστημα
+[09:28:30] Verbose: FF-1769 enters frameΣύστημα
+[09:28:30] Verbose: SD-8592 enters frameΣύστημα
+[09:28:30] Verbose: BN-0681 enters frameΣύστημα
+[09:28:30] Verbose: HJ-6286 enters frameΣύστημα
+[09:28:30] Verbose: NR-4495 enters frameΣύστημα
+[09:28:30] Verbose: UL-1279 enters frameΣύστημα
+[09:28:30] Verbose: QS-8256 enters frameΣύστημα
+[09:28:30] Verbose: VL-9902 enters frameΣύστημα
+[09:28:30] Verbose: AD-1091 enters frameΣύστημα
+[09:28:30] Verbose: ZT-4075 enters frameΣύστημα
+[09:28:30] Verbose: OC-5115 enters frameΣύστημα
+[09:28:30] Verbose: WW-1370 enters frameΣύστημα
+[09:28:30] Verbose: KO-3722 enters frameΣύστημα
+[09:28:30] Verbose: NM-9122 enters frameΣύστημα
+[09:28:30] Verbose: UB-5098 enters frameΣύστημα
+[09:28:30] Verbose: EV-2754 enters frameΣύστημα
+[09:28:30] Verbose: IY-5114 enters frameΣύστημα
+[09:28:30] Verbose: VZ-7664 enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:30] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:48] Verbose: CS-4228 enters frameVaratrun B
+[09:28:48] Verbose: HD-6724 enters frameVaratrun B
+[09:28:49] Verbose: SD-8592 enters frameVaratrun B
+[09:28:49] Verbose: AD-1091 enters frameVaratrun B
+[09:28:49] Verbose: OC-5115 enters frameVaratrun B
+[09:28:50] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:50] Verbose: CS-4228 enters frameWanstall's Rock
+[09:28:51] Verbose: ZE-8241 enters frameVaratrun B
+[09:28:51] Verbose: AD-1091 enters frameWanstall's Rock
+[09:28:51] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:51] Verbose: OC-5115 enters frameWanstall's Rock
+[09:28:52] Verbose: SD-8592 enters frameWanstall's Rock
+[09:28:52] Verbose: HD-6724 leaves frameWanstall's Rock
+[09:28:52] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:54] Verbose: LI-5010 enters frameVaratrun B
+[09:28:54] Verbose: HD-6724 enters frameVaratrun B
+[09:28:54] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:54] Verbose: LI-5010 enters frameWanstall's Rock
+[09:28:54] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:54] Verbose: NN-9632 enters frameVaratrun B
+[09:28:54] Verbose: NN-9632 enters frameWanstall's Rock
+[09:28:55] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:55] Verbose: AI-9031 leaves frameDean Colony
+[09:28:55] Verbose: UB-5098 enters frameVaratrun B
+[09:28:55] Verbose: QM-7036 leaves frameDean Colony
+[09:28:55] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:55] Verbose: KO-3722 enters frameVaratrun B
+[09:28:55] Verbose: UB-5098 enters frameWanstall's Rock
+[09:28:55] Verbose: NR-4495 enters frameVaratrun B
+[09:28:55] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:55] Verbose: BN-0681 enters frameVaratrun B
+[09:28:55] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:55] Verbose: BN-0681 enters frameDean Colony
+[09:28:55] Verbose: HJ-6286 enters frameVaratrun B
+[09:28:55] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameDean Colony
+[09:28:55] Verbose: ZE-8241 enters frameWanstall's Rock
+[09:28:55] Verbose: FF-1769 enters frameVaratrun B
+[09:28:55] Verbose: HJ-6286 enters frameWanstall's Rock
+[09:28:55] Verbose: HJ-6286 leaves frameDotson Terminal
+[09:28:55] Verbose: HJ-6286 enters frameWanstall's Rock
+[09:28:55] Verbose: NR-4495 enters frameWanstall's Rock
+[09:28:55] Verbose: KO-3722 enters frameWanstall's Rock
+[09:28:55] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameDean Colony
+[09:28:55] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:55] Verbose: NR-4495 leaves frameDotson Terminal
+[09:28:56] Verbose: QS-8256 enters frameVaratrun B
+[09:28:56] Verbose: KO-3722 leaves frameDotson Terminal
+[09:28:56] Verbose: NR-4495 enters frameWanstall's Rock
+[09:28:56] Verbose: IA-1439 leaves frameDotson Terminal
+[09:28:56] Verbose: NR-4495 leaves frameDotson Terminal
+[09:28:56] Verbose: NR-4495 enters frameWanstall's Rock
+[09:28:56] Verbose: FF-1769 enters frameWanstall's Rock
+[09:28:56] Verbose: QS-8256 enters frameWanstall's Rock
+[09:28:56] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:56] Verbose: SN-0607 leaves frameDotson Terminal
+[09:28:56] Verbose: UL-1279 enters frameVaratrun B
+[09:28:56] Verbose: FT-0425 leaves frameDotson Terminal
+[09:28:56] Verbose: EX-7091 leaves frameDean Colony
+[09:28:56] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:28:56] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameWanstall's Rock
+[09:28:56] Verbose: KA-7963 leaves frameDotson Terminal
+[09:28:56] Verbose: UL-1279 enters frameWanstall's Rock
+[09:28:56] Verbose: UL-1279 leaves frameDotson Terminal
+[09:28:56] Verbose: UL-1279 enters frameWanstall's Rock
+[09:28:56] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameDotson Terminal
+[09:28:56] Verbose: KO-3722 enters frameWanstall's Rock
+[09:28:56] Verbose: EV-2754 enters frameVaratrun B
+[09:28:56] Verbose: WM-2510 leaves frameSanders Habitat
+[09:28:57] Verbose: BM-2524 leaves frameDotson Terminal
+[09:28:57] Verbose: WN-4386 enters frameVaratrun B
+[09:28:57] Verbose: WN-4386 leaves frameDean Colony
+[09:28:59] Verbose: PD-8540 enters frameVaratrun B
+[09:29:04] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameWanstall's Rock
+[09:29:05] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameWanstall's Rock
+[09:29:05] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameDotson Terminal
+[09:29:08] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameDotson Terminal
+[09:29:09] Verbose: WW-1370 enters frameVaratrun B
+[09:29:09] Verbose: EV-2754 enters frameWanstall's Rock
+[09:29:10] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:29:35] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameWanstall's Rock
+[09:29:44] Verbose: PD-8540 enters frameDean Colony
+[09:29:45] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:30:10] Verbose: WW-1370 enters frameWanstall's Rock
+[09:30:25]    Info: Stars picked from galaxy: 1757
+[09:30:25]    Info: Final stars number: 131000
+[09:30:31] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameDean Colony
+[09:30:57] Verbose: ZT-4075 enters frameVaratrun B
+[09:35:56] Verbose: PD-8540 leaves frameDean Colony
+[09:35:56]    Info: 0 clouds brought over
+[09:35:56]    Info: Stars picked from galaxy: 0
+[09:35:56]    Info: Final stars number: 131000
+[09:35:56]    Info: Started hyperspacing...
+[09:36:17]    Info: Stars picked from galaxy: 1811
+[09:36:17]    Info: Final stars number: 131000
+[09:36:17]    Info: Ganoresh A:
+    height fractal: Ellipsoid
+    colour fractal: StarBrownDwarf
+    seed: 2416634341
+[09:36:17]    Info: Ganoresh A a:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 1944586985
+[09:36:17]    Info: Ganoresh A b:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 952822114
+[09:36:17]    Info: Stone's Claim:
+    height fractal: MountainsCraters2
+    colour fractal: Rock
+    seed: 3354892990
+[09:36:17]    Info: Norris's Claim:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 2140645813
+[09:36:17]    Info: Ganoresh A e:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 3446020850
+[09:36:17]    Info: Ganoresh A e 1:
+    height fractal: Asteroid2
+    colour fractal: Asteroid
+    seed: 4162983833
+[09:36:17]    Info: Potts's Folly:
+    height fractal: Asteroid
+    colour fractal: Rock
+    seed: 1644999265
+[09:36:17]    Info: Ganoresh B:
+    height fractal: Ellipsoid
+    colour fractal: StarBrownDwarf
+    seed: 2789255020
+[09:36:17]    Info: Ganoresh B a:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 1601580798
+[09:36:17]    Info: Warren's Rock:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 2840593923
+[09:36:17]    Info: Ganoresh B c:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 568417073
+[09:36:17] Verbose: PD-8540 enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: ZI-3193 enters frameΣύστημα
+[09:36:17] Verbose: NX-8911 enters frameΣύστημα
+[09:36:17] Verbose: NQ-4587 enters frameΣύστημα
+[09:36:17] Verbose: FF-7448 enters frameΣύστημα
+[09:36:17] Verbose: ZC-4797 enters frameΣύστημα
+[09:36:17] Verbose: CG-1160 enters frameΣύστημα
+[09:36:17] Verbose: JS-4142 enters frameΣύστημα
+[09:36:17] Verbose: MD-6341 enters frameΣύστημα
+[09:36:17] Verbose: AZ-9862 enters frameΣύστημα
+[09:36:17] Verbose: EI-4018 enters frameΣύστημα
+[09:36:17] Verbose: KK-1408 enters frameΣύστημα
+[09:36:17] Verbose: GX-7238 enters frameΣύστημα
+[09:36:17] Verbose: FN-8556 enters frameΣύστημα
+[09:36:17] Verbose: KM-8678 enters frameΣύστημα
+[09:36:17] Verbose: KU-8029 enters frameΣύστημα
+[09:36:17] Verbose: HT-8300 enters frameΣύστημα
+[09:36:17] Verbose: JR-8181 enters frameΣύστημα
+[09:36:17] Verbose: UV-8426 enters frameΣύστημα
+[09:36:17] Verbose: XU-9341 enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:17] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:33] Verbose: UV-8426 enters frameGanoresh A
+[09:36:33] Verbose: UV-8426 enters frameNorris's Claim
+[09:36:34] Verbose: FN-8556 enters frameGanoresh A
+[09:36:35] Verbose: FN-8556 enters frameNorris's Claim
+[09:36:37] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:38] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:39] Verbose: ZC-4797 enters frameGanoresh A
+[09:36:39] Verbose: ZC-4797 enters frameGanoresh A e
+[09:36:39] Verbose: ZC-4797 enters framePotts's Folly
+[09:36:40] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:40] Verbose: KM-8678 enters frameGanoresh A
+[09:36:41] Verbose: KM-8678 enters frameNorris's Claim
+[09:36:41] Verbose: XU-9341 enters frameGanoresh A
+[09:36:41] Verbose: KK-1408 enters frameGanoresh A
+[09:36:41] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:41] Verbose: KK-1408 enters frameNorris's Claim
+[09:36:41] Verbose: XU-9341 enters frameNorris's Claim
+[09:36:41] Verbose: ND-5362 leaves frameCervantes Platform
+[09:36:41] Verbose: ND-5362 leaves frameNorris's Claim
+[09:36:41] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:41] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:42] Verbose: UV-8426 leaves frameCervantes Platform
+[09:36:42] Verbose: UV-8426 leaves frameNorris's Claim
+[09:36:42] Verbose: KU-1239 leaves frameCervantes Platform
+[09:36:42] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:42] Verbose: KU-1239 leaves frameNorris's Claim
+[09:36:42] Verbose: NX-8911 enters frameGanoresh A
+[09:36:42] Verbose: NQ-4587 enters frameGanoresh A
+[09:36:42] Verbose: NX-8911 enters frameNorris's Claim
+[09:36:42] Verbose: NQ-4587 enters frameNorris's Claim
+[09:36:42] Verbose: KU-8029 enters frameGanoresh A
+[09:36:42] Verbose: KU-8029 enters frameNorris's Claim
+[09:36:42] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:42] Verbose: HT-8300 enters frameGanoresh A
+[09:36:42] Verbose: CG-1160 enters frameGanoresh A
+[09:36:42] Verbose: CG-1160 enters frameNorris's Claim
+[09:36:42] Verbose: HT-8300 enters frameNorris's Claim
+[09:36:42] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:42] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:43] Verbose: AZ-9862 enters frameGanoresh A
+[09:36:43] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:43] Verbose: AZ-9862 enters frameNorris's Claim
+[09:36:43] Verbose: IA-0427 leaves frameCervantes Platform
+[09:36:43] Verbose: IA-0427 leaves frameNorris's Claim
+[09:36:43] Verbose: GX-7238 enters frameGanoresh A
+[09:36:43] Verbose: GX-7238 enters frameNorris's Claim
+[09:36:43] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:36:43] Verbose: EC-3900 leaves frameCervantes Platform
+[09:36:43] Verbose: EC-3900 enters frameNorris's Claim
+[09:36:44] Verbose: PD-8540 enters frameGanoresh A
+[09:36:47] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameCervantes Platform
+[09:37:19] Verbose: PD-8540 enters frameNorris's Claim
+[09:37:32] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameCervantes Platform
+[09:38:26] Verbose: FF-7448 enters frameGanoresh A
+[09:39:16]    Info: Stars picked from galaxy: 1811
+[09:39:16]    Info: Final stars number: 131000
+[09:39:36] Verbose: PD-8540 leaves frameCervantes Platform
+[09:39:43] Verbose: EI-4018 enters frameGanoresh A
+[09:39:44]    Info: [09:39:44]    Info: Gas, liquid, ice: 0.000000, 0.000000, 0.000000
+[09:39:48]    Info: 0 clouds brought over
+[09:39:48]    Info: Stars picked from galaxy: 0
+[09:39:48]    Info: Final stars number: 131000
+[09:39:48]    Info: Started hyperspacing...
+[09:40:06]    Info: Stars picked from galaxy: 1757
+[09:40:06]    Info: Final stars number: 131000
+[09:40:06]    Info: Varatrun A:
+    height fractal: Ellipsoid
+    colour fractal: StarBrownDwarf
+    seed: 1183963351
+[09:40:06]    Info: Varatrun A a:
+    height fractal: MountainsCraters2
+    colour fractal: Rock
+    seed: 3515088803
+[09:40:06]    Info: Varatrun A b:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 2919597214
+[09:40:06]    Info: Varatrun A c:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 1321367847
+[09:40:06]    Info: Varatrun A d:
+    height fractal: Barren Rock 2
+    colour fractal: Ice
+    seed: 2330096447
+[09:40:06]    Info: Varatrun A e:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 902825038
+[09:40:06]    Info: Varatrun B:
+    height fractal: Ellipsoid
+    colour fractal: StarBrownDwarf
+    seed: 1130323471
+[09:40:06]    Info: Varatrun B a:
+    height fractal: MountainsCraters2
+    colour fractal: Rock
+    seed: 3271634441
+[09:40:06]    Info: Varatrun B b:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 855663070
+[09:40:06]    Info: Varatrun B c:
+    height fractal: Barren Rock 3
+    colour fractal: Rock
+    seed: 525937107
+[09:40:06]    Info: Dean Colony:
+    height fractal: HillsNormal
+    colour fractal: Rock
+    seed: 996498283
+[09:40:06]    Info: Wanstall's Rock:
+    height fractal: Barren Rock 2
+    colour fractal: Rock
+    seed: 2545632152
+[09:40:06]    Info: Varatrun B g:
+    height fractal: HillsCraters2
+    colour fractal: Rock
+    seed: 3692231762
+[09:40:06]    Info: Color Fractal name: GGSaturn
+[09:40:06] Verbose: PD-8540 enters frameΣύστημα
+[09:40:06] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:06] Verbose: WS-4990 enters frameΣύστημα
+[09:40:06] Verbose: XM-8855 enters frameΣύστημα
+[09:40:06] Verbose: AP-2297 enters frameΣύστημα
+[09:40:06] Verbose: KZ-9285 enters frameΣύστημα
+[09:40:06] Verbose: MO-6749 enters frameΣύστημα
+[09:40:06] Verbose: YH-9047 enters frameΣύστημα
+[09:40:06] Verbose: WA-6427 enters frameΣύστημα
+[09:40:06] Verbose: PE-0112 enters frameΣύστημα
+[09:40:06] Verbose: QF-10000 enters frameΣύστημα
+[09:40:07] Verbose: WS-3806 enters frameΣύστημα
+[09:40:07] Verbose: GS-4511 enters frameΣύστημα
+[09:40:07] Verbose: RP-2185 enters frameΣύστημα
+[09:40:07] Verbose: YZ-8773 enters frameΣύστημα
+[09:40:07] Verbose: NM-0471 enters frameΣύστημα
+[09:40:07] Verbose: HV-2021 enters frameΣύστημα
+[09:40:07] Verbose: KU-0392 enters frameΣύστημα
+[09:40:07] Verbose: EG-5683 enters frameΣύστημα
+[09:40:07] Verbose: VD-4357 enters frameΣύστημα
+[09:40:07] Verbose: QY-6451 enters frameΣύστημα
+[09:40:07] Verbose: WR-3144 enters frameΣύστημα
+[09:40:07] Verbose: DM-9691 enters frameΣύστημα
+[09:40:07] Verbose: MW-1360 enters frameΣύστημα
+[09:40:07] Verbose: YS-9228 enters frameΣύστημα
+[09:40:07] Verbose: QW-8675 enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:40:07] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:03] Verbose: GS-4511 enters frameVaratrun B
+[09:41:04] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:05] Verbose: GS-4511 enters frameWanstall's Rock
+[09:41:05] Verbose: QW-8675 enters frameVaratrun B
+[09:41:06] Verbose: QW-8675 enters frameWanstall's Rock
+[09:41:06] Verbose: QW-8675 leaves frameDotson Terminal
+[09:41:06] Verbose: QW-8675 enters frameWanstall's Rock
+[09:41:06] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:07] Verbose: XM-8855 enters frameVaratrun B
+[09:41:08] Verbose: XM-8855 enters frameWanstall's Rock
+[09:41:08] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:08] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:09] Verbose: MO-6749 enters frameVaratrun B
+[09:41:09] Verbose: MW-1360 enters frameVaratrun B
+[09:41:11] Verbose: MW-1360 enters frameDean Colony
+[09:41:11] Verbose: MO-6749 enters frameDean Colony
+[09:41:11] Verbose: PE-0112 enters frameVaratrun B
+[09:41:11] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:12] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameDotson Terminal
+[09:41:12] Verbose: IQ-5987 leaves frameDotson Terminal
+[09:41:12] Verbose: PE-0112 enters frameWanstall's Rock
+[09:41:12] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:13] Verbose: YS-9228 enters frameVaratrun B
+[09:41:13] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:13] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameWanstall's Rock
+[09:41:13] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameWanstall's Rock
+[09:41:13] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:13] Verbose: KU-0392 enters frameVaratrun B
+[09:41:13] Verbose: GS-4511 leaves frameDotson Terminal
+[09:41:13] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:13] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:13] Verbose: QW-8675 leaves frameDotson Terminal
+[09:41:13] Verbose: YZ-8773 enters frameVaratrun B
+[09:41:13] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:13] Verbose: YZ-8773 enters frameWanstall's Rock
+[09:41:13] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:13] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameWanstall's Rock
+[09:41:13] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:13] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameWanstall's Rock
+[09:41:13] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:13] Verbose: WA-6427 enters frameVaratrun B
+[09:41:14] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:14] Verbose: QL-6220 leaves frameSanders Habitat
+[09:41:14] Verbose: NM-0471 enters frameVaratrun B
+[09:41:14] Verbose: WA-6427 enters frameWanstall's Rock
+[09:41:14] Verbose: DM-9691 enters frameVaratrun B
+[09:41:14] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:14] Verbose: OV-4182 leaves frameDotson Terminal
+[09:41:14] Verbose: KU-0392 enters frameWanstall's Rock
+[09:41:14] Verbose: KU-0392 leaves frameDotson Terminal
+[09:41:14] Verbose: KU-0392 enters frameWanstall's Rock
+[09:41:14] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:14] Verbose: KU-0392 leaves frameDotson Terminal
+[09:41:14] Verbose: KU-0392 enters frameWanstall's Rock
+[09:41:14] Verbose: KU-0392 leaves frameDotson Terminal
+[09:41:14] Verbose: DM-9691 enters frameWanstall's Rock
+[09:41:14] Verbose: KU-0392 enters frameWanstall's Rock
+[09:41:14] Verbose: DM-9691 leaves frameDotson Terminal
+[09:41:14] Verbose: WS-4990 enters frameVaratrun B
+[09:41:14] Verbose: DM-9691 enters frameWanstall's Rock
+[09:41:14] Verbose: DM-9691 leaves frameDotson Terminal
+[09:41:14] Verbose: QF-10000 enters frameVaratrun B
+[09:41:14] Verbose: DM-9691 enters frameWanstall's Rock
+[09:41:14] Verbose: DM-9691 leaves frameDotson Terminal
+[09:41:14] Verbose: DM-9691 enters frameWanstall's Rock
+[09:41:14] Verbose: YH-9047 enters frameVaratrun B
+[09:41:14] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:14] Verbose: WS-4990 enters frameWanstall's Rock
+[09:41:16] Verbose: NM-0471 enters frameDean Colony
+[09:41:17] Verbose: YH-9047 enters frameWanstall's Rock
+[09:41:17] Verbose: QF-10000 enters frameWanstall's Rock
+[09:41:17] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameDean Colony
+[09:41:17] Verbose: PD-8540 enters frameVaratrun B
+[09:41:17] Verbose: QF-10000 leaves frameDotson Terminal
+[09:41:19] Verbose: QF-10000 enters frameWanstall's Rock
+[09:41:21] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:21] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameDotson Terminal
+[09:41:22] Verbose: RP-2185 enters frameVaratrun B
+[09:41:26] Verbose: UB-3715 enters frameVaratrun B
+[09:41:39] Verbose: RP-2185 enters frameDean Colony
+[09:41:39] Verbose: RP-2185 leaves frameDean Colony
+[09:41:43] Verbose: Νέφος άφιξης υπερδιαστήματος enters frameΣύστημα
+[09:41:53] Verbose: UB-3715 enters frameDean Colony
+[09:42:03] Verbose: LG-2158 enters frameVaratrun B
+[09:42:03] Verbose: Νέφος αναχώρησης υπερδιαστήματος leaves frameDean Colony
+[09:42:04] Verbose: RP-2185 enters frameDean Colony
+[09:42:05] Verbose: EG-5683 enters frameVaratrun B
+[09:42:06] Verbose: WR-3144 enters frameVaratrun B
+[09:42:11] Verbose: PD-8540 enters frameDean Colony
+[09:43:53] Warning: [string "[T] @pigui/modules/station-view/01-lobby.lua"]:100: bad argument #1 to 'openPopup' (string expected, got nil)
+stack traceback:
+	[C]: in function 'openPopup'
+	[string "[T] @pigui/modules/station-view/01-lobby.lua"]:100: in function 'refuelInternalTank'
+	[string "[T] @pigui/modules/station-view/01-lobby.lua"]:182: in function 'lobbyMenu'
+	[string "[T] @pigui/modules/station-view/01-lobby.lua"]:281: in function 'fun'
+	[string "[T] @pigui/libs/wrappers.lua"]:283: in function 'child'
+	[string "[T] @pigui/modules/station-view/01-lobby.lua"]:271: in function 'fun'
+	[string "[T] @pigui/libs/wrappers.lua"]:283: in function 'child'
+	[string "[T] @pigui/modules/station-view/01-lobby.lua"]:270: in function 'fun'
+	[string "[T] @pigui/libs/wrappers.lua"]:609: in function 'withStyleVars'
+	...
+	[string "[T] @pigui/libs/wrappers.lua"]:138: in function 'window'
+	[string "[T] @pigui/views/tab-view.lua"]:111: in function 'fun'
+	[string "[T] @pigui/libs/wrappers.lua"]:641: in function 'withStyleColorsAndVars'
+	[string "[T] @pigui/views/tab-view.lua"]:107: in function 'renderTabView'
+	[string "[T] @pigui/views/station-view.lua"]:67: in function 'draw'
+	[string "[T] @pigui/views/game.lua"]:57: in function 'callModules'
+	[string "[T] @pigui/views/game.lua"]:240: in function 'fun'
+	[string "[T] @pigui/libs/wrappers.lua"]:138: in function 'window'
+	[string "[T] @pigui/views/game.lua"]:230: in function 'fun'
+	[string "[T] @pigui/libs/wrappers.lua"]:576: in function 'withStyleColors'
+	[string "[T] @pigui/views/game.lua"]:229: in function <[string "[T] @pigui/views/game.lua"]:216>
+Cleaned up 3 windows, 2 styles, and 1 fonts.
+[09:44:41]    Info: StarSystemCache: misses: 436, slave hits: 0, master hits: 312379
+[09:44:41]    Info: SectorCache: misses: 5643, slave hits: 28090625, master hits: 126434
+[09:44:41]    Info: Stars picked from galaxy: 0
+[09:44:41]    Info: Final stars number: 131000
+[09:44:44]    Info: Pi shutting down.
+[09:44:44]    Info: StarSystemCache: misses: 0, slave hits: 0, master hits: 0
+[09:44:44]    Info: SectorCache: misses: 0, slave hits: 0, master hits: 0
